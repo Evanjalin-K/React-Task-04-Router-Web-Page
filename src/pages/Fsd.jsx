@@ -48,7 +48,7 @@ const Fsd = () => {
       },
       {
         id: 6,
-        Image: "https://www.guvi.in/blog/wp-content/uploads/2021/05/react-1024x536.jpg",
+        Image: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png",
         title:"6 Essential Prerequisites For Learning ReactJS",
         author: "Isha Sharma",
         date: "12 May, 2024",
