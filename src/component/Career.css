@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    height: 40vh;
+    width: 100%; 
+  }
+  
+.careerCard {
+    transition: box-shadow 0.3s ease;
+    height: 75vh;
+    width: 100%;
+    margin: 20px;
+  }
+  
+.careerCard:hover {
+    transform: scale(1.09);
+  }
+  
+.link-Style {
+    text-decoration: none;
+  }
+  .authors{
+    font-family:sans-serif;
+    font-size: small;
+  }
+.time{
+  margin-left: 40px;
+
+
+}
+  @media only screen and (max-width: 1000px) 
+  {
+    .time
+      {
+        margin-left: 80px;
+    }
+    .date{
+      margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 770px) 
+{
+  .time
+    {
+      margin-left: 250px;
+  }
+  .date{
+    margin-left: 10px;
+  }
+}
+
+
+  @media only screen and (max-width: 600px) 
+  {
+    .time
+    {
+      margin-left: 180px;
+  }
+  .authors{
+    margin-left: 20px;
+
+  }
+  .date{
+    margin-left: 20px;
+  }
+  
+}
+
+
+  
+  

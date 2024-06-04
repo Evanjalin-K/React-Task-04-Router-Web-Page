@@ -1,0 +1,21 @@
+.footer {
+    border: solid black 1px;
+    display: flex;
+    padding: 40px; 
+    background-color: #1D1D1F;
+    color: lightgray;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: small;
+    font-family: sans-serif;
+    justify-content: end;
+    display: flex;
+    gap: 30px;
+}
+  
+  .term {
+    text-align: end;
+  }
+  
+
+  
