@@ -2,6 +2,7 @@
     position: relative;
     
   }
+  
   .navLink::after {
     content: '';
     position: absolute;
@@ -15,8 +16,8 @@
   
   .navLink:hover::after {
     background-color: green; 
-
   }
+  
   .navLink:hover{
     transform: scale(1.09);
 
@@ -37,18 +38,15 @@
   button{
     border: solid 1px black;
     margin: 20px;
-    margin-right: 10px;
-
-
-    
+    margin-right: 10px;  
   }
+
   .signup{
     background-color: #0CA543;
     color: white;
     font-weight: 600;
-
-
   }
+
   .signup:hover{
     transform: scale(1.09);
     background-color: #08682b;
@@ -58,12 +56,13 @@
   .login{
     color: #0DBA4B;
     font-weight: 600;
-
   }
+
   .login:hover{
     color: #08682b;
     outline: none;
   }
+
   .inputBox{
     height: 7vh;
     margin-top: 25px;
@@ -73,6 +72,7 @@
     outline: none;
     padding: 5px; 
   }
+
   .inputBox:hover{
     color: #08682b;
   }
@@ -84,6 +84,7 @@
     color: white;
     font-weight: 600;
   }
+
   .searchbtn:hover{
     transform: scale(1.09);
     background-color: #08682b;
