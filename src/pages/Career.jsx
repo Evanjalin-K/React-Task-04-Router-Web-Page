@@ -43,7 +43,7 @@ const Career = () => {
   },
   {
     id: 6,
-    Image: "https://www.guvi.in/blog/wp-content/uploads/2022/07/4.-Is-30-really-too-old-to-start-a-career-as-a-developer_.png",
+    Image: "https://onlinecs.baylor.edu/sites/default/files/field/image/Future%20of%20Software_Engineering%20%281%29.jpg",
     title: "Is 30 Really Too Old To Start A Career As A Developer?",
     author: "By Ravi Tejas",
     date: "22 Mar, 2024",

@@ -43,7 +43,7 @@ const Cs = () => {
   },
   {
     id: 6,
-    Image: "https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif",
+    Image: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png",
     title: "Is coding required for cybersecurity? If yes, how crucial is coding for cybersecurity?",
     author: "By Jessie",
     date: "06 May, 2024",
