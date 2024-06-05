@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Home />,
     children: [
       {
-        path: "/all",
+        path: "/",
         element: <All/>
       },
       {
@@ -45,6 +45,7 @@ const App = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
+

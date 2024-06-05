@@ -1,6 +1,5 @@
 import { Link, Outlet } from "react-router-dom";
 import "../component/Home.css";
-
 const Home = () => {
   return (
     <div className="container">
@@ -53,20 +52,15 @@ const Home = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <Link className="navLink nav-link active" to="/all">
-                    All
-                  </Link>
+                  <Link className="navLink nav-link active" to="/">All</Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    className="navLink nav-link active"
-                    to="/fullstackdevelopement"
-                  >
-                    Full Stack Development
+                    className="navLink nav-link active"to="/fullstackdevelopement">Full Stack Development
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="navLink nav-link active" to="/datascience">
+                  <Link className="navLink nav-link active" to="/datascience"> 
                     Data Science
                   </Link>
                 </li>
@@ -83,12 +77,14 @@ const Home = () => {
               </ul>
             </div>
           </div>
-        </nav>
-        <hr />
-        <Outlet />
+        </nav>      
+      <Outlet/>
       </div>
-    </div>
+      </div>
+
+
   );
 };
+
 
 export default Home;
